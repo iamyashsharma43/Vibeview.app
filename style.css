@@ -1,0 +1,38 @@
+body {
+    font-family: 'Poppins', sans-serif; /* Trending font style */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f4f4f4; /* Light background color */
+    color: #333; /* Darker text color for contrast */
+    text-align: center;
+    padding: 1em;
+}
+
+nav {
+    margin-top: 1em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e0e0; /* Slightly darker than the header for distinction */
+    padding: 0.5em;
+    border-radius: 8px; /* Adds a subtle border-radius for aesthetics */
+}
+
+nav ul li {
+    cursor: pointer;
+}
+
+main {
+    padding: 1.5em; /* Slightly reduced padding for a sleek look */
+    background-color: #fff; /* White background for content area */
+    border-radius: 8px; /* Adds a subtle border-radius for aesthetics */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle box shadow for depth */
+}
+
+/* Additional styles for video cards, filters, etc. go here */
